@@ -276,7 +276,7 @@ iframe{
 .home-info{
 	margin:0% 6% 0 6%;
 	justify-content:center;
-    margin: 0 1.375%; 
+    padding: 0 1.375%; 
     height: 250px;
     padding-left:45px ;
 }
