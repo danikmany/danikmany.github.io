@@ -1,7 +1,11 @@
 @media only screen and (max-width: 1500px) {
+
+/*----NAVIGATION----*/
 nav ul li a {
     padding: 10px 25px;
 }
+/*------------------*/
+/*-------HOME-------*/
 .home-info {
     padding-bottom: 50px;
 }   
@@ -13,22 +17,35 @@ nav ul li a {
     font-size: 3em;
     padding-bottom: 40px;
 }
+/*--------------------*/
+/*--------INFO--------*/
+.info{
+    height: 400px;
+}
+.info_box{
+    padding-top: 20px;
+}
+/*--------------------*/
 }
 /*--------------------------------------*/
 
 @media only screen and (max-width: 1200px) {
+
+/*----NAVIGATION----*/
+.logo img {
+    padding-left: 35px;
+}
+nav ul li a {
+    padding: 10px 14px;
+}
+/*------------------*/
+/*-------HOME-------*/
 .oferte-foto h1 {
     font-size: 0.9em;
     width: 18vw;
     padding-right: 0;
     line-height: 25px;
     padding-left: 0;
-}
-.logo img {
-    padding-left: 35px;
-}
-nav ul li a {
-    padding: 10px 14px;
 }
 .home-info {
     height: 255px;
@@ -42,23 +59,85 @@ nav ul li a {
     font-size: 2em;
     padding-bottom: 20px;
 }
+/*--------------------*/
+/*--------INFO--------*/
+.info{
+    height: 330px;
+}
+iframe{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    width: 800px;
+    height: 450px;
+}
+/*--------------------*/
 }
 /*--------------------------------------*/
 
 @media only screen and (max-width: 992px) {
+
+/*-------HOME-------*/
 .home-info {
     height: 220px;
-}    
+} 
+.info_box p{
+    font-size: 1.2em;
+}
+.info_box h1{
+    font-size: 4em;
+}
+.info_box h2{
+   font-size: 2em; 
+}
+.main{
+    height: 1700px;
+}
+/*------------------*/
 }
 /*--------------------------------------*/
 
 @media only screen and (max-width: 768px) {
-    
+
+/*-------HOME-------*/
+.home-info {
+    height: 220px;
+} 
+.info_box p{
+    font-size: 1.4em;
+}
+.info_box h1{
+    font-size: 4.5em;
+}
+.info_box h2{
+   font-size: 2.5em; 
+}
+/*-----------------*/
+/*-----INFO--------*/
+.main{
+    height: 1800px;
+}    
+iframe{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    width: 400px;
+    height: 225px;
+}
+/*-----------------*/
 }
 /*--------------------------------------*/
 
-@media only screen and (max-width: 480px) {
-    
+@media only screen and (max-width: 480px) {  
+/*-----INFO--------*/
+.main{
+    height: 2000px;
+}    
+iframe{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    width: 300px;
+    height: 170px;
+}
+/*-----------------*/
 }
 /*--------------------------------------*/
 
