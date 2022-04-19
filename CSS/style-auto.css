@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-----NAVIGATION_BAR--------*/
+nav{
+    z-index:+20;
+}
+nav ul{
+    list-style: none;
+    background-color: #1e1e1e;
+}
+nav > ul >li {
+    float: left;
+}
+nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Arial';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+}
+nav ul li a:hover{
+    box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
+    background-color: #414141;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    font-size: 0.9em;
+    background-color: #7c7c7c;
+}
+nav ul ul li a{
+     margin: 0;
+     padding: 0 10px 0 10px ;
+     line-height: 30px;
+     height: 30px;
+     text-transform: none;
+}
+.jante:hover ul{
+    z-index:+20;
+    display: block;
+    height: 90px;
+} 
+.servicii:hover ul{
+    z-index:+20;
+    display: block;
+    height: 210px;
+}
+.anvelope:hover ul{
+    z-index:+20;
+    display: block;
+    height: 90px;
+}
+.baterii:hover ul{
+    z-index:+20;
+    display: block;
+    height: 60px;
+}
+.uleiuri:hover ul{
+    z-index:+20;
+    display: block;
+    height: 90px;
+}
+nav ul ul li a:hover{
+    box-shadow:none;
+    text-decoration:underline;
+    background-color: #7c7c7c;
+}
+/*--------------------------*/
+/*-----------LOGO-----------*/
+.logo{
+    position: relative;
+    object-position: left;
+}
+.logo img{
+    padding-left: 80px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.logo a{
+    position: relative;
+    padding-left: 0;
+    padding-top: 0;
+    line-height: 17px;
+    font-family:  'Trebuchet MS';
+    width: 80px;
+    height: 35px;
+}
+.logo{
+    display: block;
+}
+.logo a:hover{
+    box-shadow:none;
+    background-color: #1e1e1e ;
+}
+/*--------------------------*/
+/*--------INFO-PAGE--------*/
+.main{
+	width:100%;
+	height:1000px;
+	background-color: #545353;
+}
+
+.info{
+	margin:0% 6% 0 6%;
+	justify-content:center;
+    margin: 0 1.375%; 
+    height: 250px;
+    padding-left:50px ;
+}
+.foto{
+    display:inline-block;
+	position:relative;
+    width:25vw;
+	margin:0 1,75% 0 1,75%;
+    padding: 0 2vw 0 2vw;
+}
+.foto h1{
+	font-size:0.8em;
+    width: 25vw;
+}
+h1{
+    position: relative; 
+	height:50px;
+	padding:0 60px 0 10px;
+	font-family:Arial;
+	font-size:2.85em;
+	line-height:30px;
+}
+.main h1{
+	color:#fff;
+	text-decoration:underline rgb(183, 183, 183);
+	font-family:Arial;
+}
+.info_box h2{
+    text-decoration: underline rgb(183, 183, 183);
+}
+.foto img{
+    height: 25vw;
+	border-radius: 5%;
+}
+.info_box{
+    padding: 90px;
+    color: #fff;
+    font-family: 'ARIAL';
+}
+.foto img:hover{
+    box-shadow: 3px 3px 8px 3px #000;
+}
+
+/*------------------------*/
+
+/*--CREATOR/CONTACTE-PAGE--*/
+.c_main{
+	width:100%;
+	height: 100vh;
+	background-color:#545353;
+	display:inline-block;
+	justify-content:center;
+	margin-top:0x;
+	margin-bottom:0;
+}
+.c_photo img{
+	display:block;
+	border-radius: 50%;
+	width:25vw;
+	position:relative;
+	float:left;
+	margin-left:9vw;
+	padding: 0 5vw 0 10vw;
+}
+.c_info{
+	color:#fff;
+	width:25vw;
+	float:left;
+    line-height: 25px;
+}
+.c_info li{
+	font-family:Arial;
+	font-size:1.20em;
+}
+.c_info li a{
+	color: rgb(0, 248, 248);
+	text-decoration-color: rgb(0, 248, 248);
+}
+.contact_photo img{
+	display:block;
+	width:25vw;
+	position:relative;
+	float:left;
+	margin-left:9vw;
+	padding: 0 5vw 0 10vw;
+}
+/*-------------------------*/
+
+/*--------SERVICII---------*/
+.servicii-main{
+    width: 100%;
+    height: 900px;
+}
+.servicii-main h1{
+    display: block;
+    text-align: center;
+}
+.servicii-main img{
+    width: 90vw;
+    margin: 4.35vw;
+    margin-top: 0;
+}
+.servicii-main p{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-family: 'Arial';
+}
+.servicii-main ul li{
+    font-family: 'Arial';
+    text-decoration: unset;
+    margin-left: 7.7vw;
+}
+.servicii-main h2{
+    font-size: 1.5em;
+    margin-left: 7vw;
+    font-family: 'Arial';
+    
+}
+/*-------------------------*/
+/*---SERVICII+VIDEO--------*/
+.servicii-mainv{
+    width: 98.7vw;
+    height: 1300px;
+}
+.servicii-mainv h1{
+    display: block;
+    text-align: center;
+}
+.servicii-mainv img{
+    width: 90vw;
+    margin: 4.35vw;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.servicii-mainv p{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-family: 'Arial';
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    width: 1100px;
+    height: 620px;
+}
+/*-------------------------*/
+
+/*--------HOME-PAGE--------*/
+.home-main{
+	width:100%;
+	height:800px;
+	background-color: #545353;
+}
+
+.home-info{
+	margin:0% 6% 0 6%;
+	justify-content:center;
+    margin: 0 1.375%; 
+    height: 250px;
+    padding-left:45px ;
+}
+.home-foto{
+    display:inline-block;
+	position:relative;
+    width:18vw;
+	margin:0 1,75% 0 1,75%;
+    padding: 0 2vw 0 2vw;
+}
+.home-foto h1{
+	font-size:1.1em;
+    width: 18vw;
+}
+h1{
+    position: relative; 
+	height:50px;
+	padding:0 60px 0 10px;
+	font-family:Arial;
+	font-size:2.85em;
+	line-height:30px;
+}
+.home-main h1{
+	color:#fff;
+	text-decoration:underline rgb(183, 183, 183);
+	font-family:Arial;
+}
+.info_box h2{
+    text-decoration: underline rgb(183, 183, 183);
+}
+.home-foto a img{
+    height: 18vw;
+	border-radius: 5%;
+}
+.home-foto img:hover{
+    box-shadow: 3px 3px 8px 3px #000;
+}
+/*-------------------------*/
+
+/*---------OFERTE----------*/
+.oferte{
+	width:100%;
+	height:900px;
+    background-color: #fff;
+    padding-top: 30px;
+    max-height: 100vw;
+}
+.oferte-content{
+    padding: 0 0 0 56px ;
+}
+.oferte h1{
+    width: 80vw;
+    font-size: 2em;
+    color: #000;
+    padding-left: 80px;
+}
+.oferte .title{
+    padding-bottom: 20px;
+}
+.oferte-foto{
+    display:inline-block;
+	position:relative;
+    width:18vw;
+	margin:0 1,75% 0 1,75%;
+    padding: 0 2vw 0 2vw;
+}
+.oferte-foto h1{
+	font-size:1.2em;
+    width: 18vw;
+    padding-right: 0;
+    line-height: 30px;
+    padding-left: 0;
+}
+.oferte-foto a img{
+    height: 18vw;
+	border-radius: 5%;
+    border: 2px solid black;
+}
+.oferte-foto img:hover{
+    box-shadow: 3px 3px 8px 3px #000;
+}
+/*-------------------------*/
